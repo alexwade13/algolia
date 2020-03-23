@@ -1,4 +1,5 @@
 {
+  "homepage": "https://alexwade13.github.io/algolia",
   "name": "algolia-challenge",
   "version": "1.0.0",
   "private": true,
@@ -6,7 +7,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "lint": "eslint .",
-    "lint:fix": "npm run lint -- --fix"
+    "lint:fix": "npm run lint -- --fix",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "algoliasearch": "3.35.1",
