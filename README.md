@@ -1,4 +1,4 @@
-# algolia-challenge
+# algolia
 
 In this project, I intended to demonstrate how with just a few short hours with the Algolia app and documentation, one can create something of value. I created a small search application for different airports around the world. Given more time, I was looking into adding to the project with a geo-search capability and map to allow users to search for airports based off of longitude and latitude.
 
